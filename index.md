@@ -56,3 +56,9 @@ My interests grow from a simple question: how can machines perceive dynamic scen
 <div style="width: 100px; height: 100px; margin: 30px auto; display: flex; justify-content: center; align-items: center;">
     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WBS-C103szyqK9_Q1B6O3HihyzClmC4RQve17y7ef-U"></script>
 </div>
+
+<div class="ambient-bear-stage" aria-hidden="true">
+    <video class="ambient-bear-video" autoplay muted loop playsinline preload="metadata" poster="./assets/img/brown-bear-guitar-poster.png">
+        <source src="./assets/video/brown-bear-guitar.mp4" type="video/mp4">
+    </video>
+</div>

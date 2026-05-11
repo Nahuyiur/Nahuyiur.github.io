@@ -47,6 +47,7 @@ function enterHomepage() {
 
     introPage.classList.add("is-leaving");
     mainContent.classList.add("is-visible");
+    document.body.classList.add("homepage-entered");
 
     setTimeout(() => {
         introPage.style.display = "none";
