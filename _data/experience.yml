@@ -1,11 +1,24 @@
 main:
-  - title: "Peking University"
-    details: "(2022.09-Present) B.S in Computer Science"
-    image: ./assets/img/pku_colored.png
-    image_width: 40px
-    image_height: 40px
+  - title: "Southern University of Science and Technology"
+    details: "(2023.09-Present) B.S. in Computer Science and Technology"
+    url: https://www.sustech.edu.cn/
+    image: ./assets/img/sustech_logo.png
+    image_width: 52px
+    image_height: 52px
+
+  - title: "SUSTech iSUS Lab"
+    details: "Advised by Prof. Qi Hao and Research Assistant Professor Meiying Zhang"
+    url: https://github.com/sustech-isus
+    image: ./assets/img/isus_logo.png
+    image_width: 50px
+    image_height: 50px
+
   - title: "HMI Lab, National Key Laboratory for Multimedia Information Processing"
-    details: "(2024.01-Present) Undergraduate Research Assistant"
+    details: "(2026.01-Present) Research Intern advised by Prof. Shanghang Zhang"
+    url: https://pku-hmi-lab.github.io/HMI-Web/about.html
     image: ./assets/img/hmi_logo.jpeg
     image_width: 80px
     image_height: 40px
+
+  - title: "Muka Robotics"
+    details: "(2026.04-Present) Early-stage intern contributing as one of the company's initial team members"

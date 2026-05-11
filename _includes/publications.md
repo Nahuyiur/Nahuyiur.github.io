@@ -1,11 +1,14 @@
 <h2 id="publications" style="margin: 2px 0px -15px; display: flex; align-items: baseline;">
   Selected Publications
-  <small style="font-size: 0.8rem; font-weight: 400; margin-left: 1em;">
-    <a href="https://scholar.google.com/citations?hl=zh-CN&user=_kPOfsoAAAAJ" target="_blank" rel="noopener">(Click for full list)</a>
-  </small>
+  {% if site.google_scholar %}
+    <small style="font-size: 0.8rem; font-weight: 400; margin-left: 1em;">
+      <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">(Click for full list)</a>
+    </small>
+  {% endif %}
 </h2>
 
 <div class="publications">
+{% if site.data.publications.main and site.data.publications.main.size > 0 %}
 <div id="filters" class="filters">
   <button class="btn active" data-filter="*">All</button>
   <button class="btn" data-filter="World Model">World Model</button>
@@ -61,4 +64,7 @@
 {% endfor %}
 
 </ol>
+{% else %}
+<p>Selected publications will be added here as projects mature.</p>
+{% endif %}
 </div>

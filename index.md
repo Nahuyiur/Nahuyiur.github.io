@@ -6,11 +6,11 @@ layout: homepage
 
 ## About Me
 
-I am a senior undergraduate student majoring in Artificial Intelligence at the School of EECS, [Peking University](https://www.pku.edu.cn/). I am honored to be advised by Prof. [Shanghang Zhang](https://www.shanghangzhang.com/) as a research intern at the [HMI Lab](https://pku-hmi-lab.github.io/HMI-Web/about.html), School of Computer Science, Peking University.
+I am a junior undergraduate student majoring in Computer Science and Technology at [Southern University of Science and Technology](https://www.sustech.edu.cn/). At SUSTech, I am advised by <span class="text-accent">Prof. Qi Hao</span> and <span class="text-accent">Research Assistant Professor Meiying Zhang</span>. I am also a research intern at Prof. [Shanghang Zhang](https://www.shanghangzhang.com/)'s [HMI Lab](https://pku-hmi-lab.github.io/HMI-Web/about.html), Peking University, and an early intern at <span class="text-accent">Muka Robotics</span>.
 
-My current research interests primarily lie in **multimodal learning** and **embodied AI**, with a focus on **world model**. Specifically, my research interests are dedicated to exploring robust and efficient methodologies for representing world states and modeling state transitions, with the overarching goal of advancing robotic planning capabilities. I am enthusiastic about contributing to and collaborating on innovative, cutting-edge research in this field.
+My interests grow from a simple question: how can machines perceive dynamic scenes, reason across language and vision, and act safely in the physical world? I work around <span class="text-accent">autonomous driving</span>, <span class="text-accent">computer vision</span>, <span class="text-accent">multimodal learning</span>, <span class="text-accent">NLP</span>, <span class="text-accent">world models</span>, and <span class="text-accent">embodied AI</span>, with a particular focus on video-text retrieval, dangerous scene detection, and object detection.
 
-***I am currently seeking Ph.D. opportunities starting in Fall 2026. Please feel free to contact me if you are interested in my work or potential collaboration!***
+***I see AGI as a mountain: perception draws the map, language ties the rope, and action makes the climb real. I am still early in the ascent, but I am moving upward with curiosity, discipline, and a willingness to build.***
 
 
 </div>
@@ -19,8 +19,10 @@ My current research interests primarily lie in **multimodal learning** and **emb
 
 ## Research Interests
 
-- **Multimodal Learning:** video understanding, VLM, video generation
-- **Embodied AI:** robot planning, VLA models, robot manipulation
+- **Autonomous Driving:** video-text retrieval, dangerous scene detection, safety-critical scene understanding
+- **Computer Vision:** object detection, visual representation learning, scene perception
+- **Multimodal Learning & NLP:** vision-language understanding, retrieval, language-grounded reasoning
+- **World Models & Embodied AI:** environment dynamics, embodied perception, decision-making for agents
 
 </div>
 
@@ -43,10 +45,11 @@ My current research interests primarily lie in **multimodal learning** and **emb
 
 ## Miscellaneous
 
-- I held the position of **President** of the Student Rugby🏉 Football🏈 Association of Peking University during the 2023-2024 academic year.
-- 🏈 I serve as the **defensive captain** of the university's American football team, playing as a linebacker and tight end. 🔥🔥🔥 Come see my [Pick6🏈](https://www.instagram.com/p/DBRcd9nPGZu/) V.S BISU Snowwolves🐺
-- 💪 I'm living on a gym lifestyle, hitting the gym at least twice a week.
-- 🎧 I love Hip-hop and R&B Music. I'm a huge fan of [J.Cole](https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5), [Ye](https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x) and [Usher](https://open.spotify.com/artist/23zg3TcAtWQy7J6upgbUnj).
+- 🎓 I served as a <span class="misc-accent">peer mentor</span> for Class 2404 at Zhiren College, SUSTech, helping first-year students settle into university life and staying close enough to become both a guide and a friend.
+- 🎻 I have a solid command of the <span class="misc-accent">violin</span>, but if I am honest, rock music probably runs louder in my blood; I want to pick up the 🎸 <span class="misc-accent">electric guitar</span> or bass and start a <span class="misc-accent">rock band</span> someday.
+- 💿 I am a devoted <span class="misc-accent">music lover</span> and currently collecting vinyl records <img class="inline-icon" src="./assets/img/vinyl-record.png" alt="vinyl record">. [Prince](https://open.spotify.com/artist/5a2EaR3hamoenG9rDuVn8j) and [David Bowie](https://open.spotify.com/artist/0oSGxfWSnnOXhD2fKuz2Gy) are my personal GOATs; [Sheena Ringo](https://open.spotify.com/artist/2XjqKvB2Xz9IdyjWPIHaXi), [Björk](https://open.spotify.com/artist/7w29UYBi0qsHi5RTcv3lmA), and [Hikaru Utada](https://open.spotify.com/artist/2ESCsYxxZwArLrKl3DkfFl) hold the same place for me. I am always up for music conversations, and I may share some playlists here when time allows.
+- 🏃 I am trying to build a serious <span class="misc-accent">fitness habit</span>. I used to run regularly, before research deadlines turned me into a temporary couch potato.
+- 🧸 I have a soft spot for <span class="misc-accent">Brown bears</span>: three identical Brown bear pillows live with me in Changzhou, Shenzhen, and Beijing.
 
 </div>
 

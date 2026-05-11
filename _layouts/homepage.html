@@ -34,62 +34,26 @@
     <link rel="stylesheet" href="./assets/css/publications.css">
     </head>
 
-    <body>
-    <!-- 特效页 -->
-        <!-- 特效页 -->
-    <div id="intro-page" style="
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #F9F8F4;
-        z-index: 9999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        color: #8C0000;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        transition: opacity 0.3s ease;
-    ">
-        <!-- 固定文字 -->
-        <p style="
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color: #8C0000;
-            font-weight: bold;
-            text-align: center;
-        ">Welcome to Kuangzhi Ge's Webpage</p>
+    <body class="theme-{{ site.visual_theme | default: 'calm-spectrum' }}">
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div id="intro-page" class="intro-page" role="button" tabindex="0" aria-label="Enter homepage">
+        <div class="spectrum-field" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <p class="intro-kicker">Personal Homepage</p>
+        <p class="intro-title">Welcome to {{ site.title }}'s Webpage</p>
 
-        <div style="font-size: 24px; font-family: 'Courier New', Courier, monospace;">
+        <div class="intro-typewriter">
             <span id="typewriter"></span><span class="cursor">|</span>
         </div>
 
-        <!-- 提示文字 -->
-        <p style="
-            font-size: 1rem;
-            color: #8C0000;
-            margin-top: 40px;
-            opacity: 0.7;
-            animation: pulse 2s infinite;
-        ">click to continue</p>
-
-        <style>
-            @keyframes pulse {
-                0% { opacity: 0.4; }
-                50% { opacity: 1; }
-                100% { opacity: 0.4; }
-            }
-        </style>
+        <p class="intro-enter">Enter</p>
     </div>
 
     <!-- 主页面内容 -->
-    <div id="main-content" style="
-        display: none;
-        opacity: 0; /* 初始完全不可见 */
-        transition: opacity 1s ease; /* 淡入动画 */
-    ">
+    <div id="main-content" class="main-content">
         <div class="wrapper">
         <header>
         {% if site.avatar %}
@@ -102,6 +66,10 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
+        {% if site.tagline %}
+        <position class="tagline" style="font-size:0.92rem;">{{ site.tagline }}</position>
+        <br>
+        {% endif %}
         {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener">
             <autocolor>{{ site.affiliation }}</autocolor>
@@ -109,7 +77,11 @@
         <br>
         {% endif %}
         {% if site.email %}
+        {% if site.email_link %}
+        <email><a href="{{ site.email_link }}">{{ site.email }}</a></email>
+        {% else %}
         <email>{{ site.email }}</email>
+        {% endif %}
         {% endif %}
 
         <br><br>

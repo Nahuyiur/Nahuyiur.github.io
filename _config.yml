@@ -1,44 +1,31 @@
 # Basic Information
-title: Kuangzhi Ge
-position: Undergraduate Student
-affiliation: Peking University
-email: gekuangzhi (at) stu.pku.edu.cn
+title: Yuhan Rui
+position: Junior Undergraduate Student
+tagline: A climber scaling the AGI mountain.
+affiliation: Southern University of Science and Technology
+affiliation_link: https://www.sustech.edu.cn/
+email: ruiyuhan0110@gmail.com
+email_link: mailto:ruiyuhan0110@gmail.com
 
-domain: kuangzhige.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://kuangzhige.github.io # the base hostname and protocol for your site, e.g. http://example.com
+domain: nahuyiur.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://nahuyiur.github.io # the base hostname and protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-sitemap
-# baseurl: /REPOSITORY-NAME/      # place folder name if the site is served in a subfolder
+# baseurl: /yuhan-main-page      # enable this only if the site is served in a subfolder
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: Kuangzhi Ge, 戈旷植, PKU, kuangzhi ge, Kuangzhi Ge PKU, kuangzhi ge PKU, kuangzhi ge pku
-description: The personal website of Kuangzhi Ge, an undergraduate student at Peking University majoring in Artificial Intelligence.
-canonical: https://kuangzhige.github.io/
+keywords: Yuhan Rui, Rui Yuhan, Ewan Ray, 芮煜涵, SUSTech, Southern University of Science and Technology, computer science, autonomous driving, video-text retrieval, dangerous scene detection, object detection, computer vision, multimodal learning, NLP, world models, embodied AI
+description: The personal website of Yuhan Rui, a junior undergraduate student in Computer Science and Technology at Southern University of Science and Technology, exploring autonomous driving, computer vision, multimodal learning, world models, and embodied AI.
+canonical: https://nahuyiur.github.io/
 
 # Links
 # If you don't need one of them, you may delete the corresponding line.
 social:
-  - {
-      platform: "GitHub",
-      url: "https://github.com/KuangzhiGe",
-      icon: "fab fa-github",
-      font_size: "1.2rem",
-    }
-  - {
-      platform: "Google Scholar",
-      url: "https://scholar.google.com/citations?hl=zh-CN&user=_kPOfsoAAAAJ",
-      icon: "ai ai-google-scholar",
-      font_size: "1.3rem",
-    }
-  - {
-      platform: "LinkedIn",
-      url: "https://www.linkedin.com/in/旷植-戈-771b3630b/",
-      icon: "fab fa-linkedin",
-      font_size: "1.2rem",
-    }
-  # - { platform: 'CV',           url: 'assets/files/curriculum_vitae.pdf',              icon: 'ai ai-cv',             font_size: '1.3rem' }
-  # - { platform: 'Twitter',      url: 'https://twitter.com/your_username',              icon: 'fab fa-x-twitter',     font_size: '1.2rem' }
+  # - { platform: "GitHub", url: "https://github.com/your_username", icon: "fab fa-github", font_size: "1.2rem" }
+  # - { platform: "Google Scholar", url: "https://scholar.google.com/", icon: "ai ai-google-scholar", font_size: "1.3rem" }
+  # - { platform: "LinkedIn", url: "https://www.linkedin.com/in/your_username/", icon: "fab fa-linkedin", font_size: "1.2rem" }
+  # - { platform: "CV", url: "assets/files/curriculum_vitae.pdf", icon: "ai ai-cv", font_size: "1.3rem" }
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
@@ -58,6 +45,11 @@ auto_dark_mode: true
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Sans Serif" # or "Sans Serif"
 
+# Visual theme
+# "calm-spectrum" is the current default.
+# Switch to "minimal-light" if you want the original light academic style.
+visual_theme: "calm-spectrum"
+
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
 # google_analytics: UA-111540567-4
@@ -68,6 +60,7 @@ remote_theme: yaoyao-liu/minimal-light
 
 # The following files will be removed from the generated website.
 exclude:
+  - .bundle
   - Gemfile
   - Gemfile.lock
   - README.md
@@ -75,3 +68,6 @@ exclude:
   - README_zh_Hant.md
   - README_de.md
   - LICENSE
+  - vendor
+  - .playwright-cli
+  - output

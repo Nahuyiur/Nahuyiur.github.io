@@ -1,44 +1,89 @@
-const texts = ["Create Explore Expand Conquer"]; // 循环的文字内容
+const texts = [
+    "Create. Explore. Expand. Conquer.",
+    "World Models. Multimodal Learning. Embodied AI.",
+    "Research with clarity, color, and motion."
+];
 
 const typewriterElement = document.getElementById("typewriter");
 const introPage = document.getElementById("intro-page");
 const mainContent = document.getElementById("main-content");
+const cursorGlow = document.querySelector(".cursor-glow");
 
-let textIndex = 0; // 当前播放的文字索引
-let charIndex = 0; // 当前文字的字符索引
+let textIndex = 0;
+let charIndex = 0;
+let deleting = false;
 
-// 逐字显示效果
 function typeEffect() {
-    if (charIndex < texts[textIndex].length) {
-        typewriterElement.textContent += texts[textIndex].charAt(charIndex);
-        charIndex++;
-        setTimeout(typeEffect, 100); // 控制显示速度
-    } else {
-        setTimeout(() => {
-            resetTypeEffect(); // 完成后重置并播放下一句
-        }, 500); // 停留 0.2 秒后重置
+    if (!typewriterElement) return;
+
+    const currentText = texts[textIndex];
+    typewriterElement.textContent = currentText.slice(0, charIndex);
+
+    if (!deleting && charIndex < currentText.length) {
+        charIndex += 1;
+        setTimeout(typeEffect, 56);
+        return;
     }
+
+    if (!deleting && charIndex === currentText.length) {
+        deleting = true;
+        setTimeout(typeEffect, 1200);
+        return;
+    }
+
+    if (deleting && charIndex > 0) {
+        charIndex -= 1;
+        setTimeout(typeEffect, 24);
+        return;
+    }
+
+    deleting = false;
+    textIndex = (textIndex + 1) % texts.length;
+    setTimeout(typeEffect, 280);
 }
 
-// 重置文字效果并播放下一句
-function resetTypeEffect() {
-    typewriterElement.textContent = ""; // 清空文字
-    charIndex = 0; // 重置字符索引
-    textIndex = (textIndex + 1) % texts.length; // 循环切换到下一句
-    typeEffect(); // 重新播放
-}
+function enterHomepage() {
+    if (!introPage || !mainContent || introPage.classList.contains("is-leaving")) return;
 
-// 点击特效页进入主页面
-introPage.addEventListener("click", () => {
-    introPage.style.opacity = "0"; // 淡出特效页
+    introPage.classList.add("is-leaving");
+    mainContent.classList.add("is-visible");
+
     setTimeout(() => {
-        introPage.style.display = "none"; // 完全隐藏特效页
-        mainContent.style.display = "block"; // 显示主页面内容
-        setTimeout(() => {
-            mainContent.style.opacity = "1"; // 淡入主页面
-        }, 10); // 确保 display: block 生效后再进行淡入
-    }, 500); // 保证淡出动画完成后再隐藏特效页
-});
+        introPage.style.display = "none";
+    }, 760);
+}
 
-// 启动逐字显示特效
+if (introPage) {
+    introPage.addEventListener("click", enterHomepage);
+    introPage.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            enterHomepage();
+        }
+    });
+}
+
+if (cursorGlow) {
+    window.addEventListener("pointermove", (event) => {
+        cursorGlow.style.setProperty("--x", `${event.clientX}px`);
+        cursorGlow.style.setProperty("--y", `${event.clientY}px`);
+    }, { passive: true });
+}
+
+const animatedCards = document.querySelectorAll(".card, .experience-item, .bibliography li");
+if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.12 });
+
+    animatedCards.forEach((item) => observer.observe(item));
+} else {
+    animatedCards.forEach((item) => item.classList.add("is-visible"));
+}
+
 typeEffect();
