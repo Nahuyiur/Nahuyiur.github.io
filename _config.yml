@@ -11,7 +11,6 @@ domain: nahuyiur.github.io # if you want to force HTTPS, specify the domain with
 url: https://nahuyiur.github.io # the base hostname and protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-sitemap
-# baseurl: /yuhan-main-page      # enable this only if the site is served in a subfolder
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.

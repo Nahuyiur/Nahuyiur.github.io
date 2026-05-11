@@ -6,11 +6,17 @@ This repository contains the source code for my personal academic homepage:
 
 The site is built with Jekyll and customized for my profile, research interests, experience, and personal notes.
 
+Repository:
+
+[Nahuyiur/Nahuyiur.github.io](https://github.com/Nahuyiur/Nahuyiur.github.io)
+
 ## Local Preview
 
 ```bash
-cd ~/Desktop/yuhan-main-page
+git clone https://github.com/Nahuyiur/Nahuyiur.github.io.git
+cd Nahuyiur.github.io
 export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+bundle install
 bundle exec jekyll serve --host 127.0.0.1 --port 4000 --livereload
 ```
 
