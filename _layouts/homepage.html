@@ -17,7 +17,8 @@
 
     <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
-    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+    {% assign asset_version = site.time | date: '%s' %}
+    <script src="./assets/js/favicon-switcher.js?v={{ asset_version }}" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css
         integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
@@ -30,8 +31,8 @@
     {% else %}
     <link rel="stylesheet" href="./assets/css/font.css">
     {% endif %}
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/publications.css">
+    <link rel="stylesheet" href="./assets/css/style.css?v={{ asset_version }}">
+    <link rel="stylesheet" href="./assets/css/publications.css?v={{ asset_version }}">
     </head>
 
     <body class="theme-{{ site.visual_theme | default: 'calm-spectrum' }}">
@@ -121,9 +122,9 @@
     </div>
 </div>
 
-    <script src="./assets/js/scale.fix.js"></script>
-    <script src="./assets/js/favicon-switcher.js"></script>
-    <script src="./assets/js/intro-animation.js"></script>
+    <script src="./assets/js/scale.fix.js?v={{ asset_version }}"></script>
+    <script src="./assets/js/favicon-switcher.js?v={{ asset_version }}"></script>
+    <script src="./assets/js/intro-animation.js?v={{ asset_version }}"></script>
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -134,8 +135,8 @@
     </script>
     {% endif %}
     <a id="back-to-top"></a>
-    <script src="./assets/js/back-to-top.js"></script>
-    <script src="./assets/js/pub-filter.js"></script>
+    <script src="./assets/js/back-to-top.js?v={{ asset_version }}"></script>
+    <script src="./assets/js/pub-filter.js?v={{ asset_version }}"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
