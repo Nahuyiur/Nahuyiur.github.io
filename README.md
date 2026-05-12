@@ -6,6 +6,8 @@ This repository contains the source code for my personal academic homepage:
 
 The site is built with Jekyll and customized for my profile, research interests, experience, and personal notes.
 
+This repository was forked from [Kuangzhi Ge's homepage repository](https://github.com/KuangzhiGe/kuangzhige.github.io) and further customized from there.
+
 Repository:
 
 [Nahuyiur/Nahuyiur.github.io](https://github.com/Nahuyiur/Nahuyiur.github.io)
