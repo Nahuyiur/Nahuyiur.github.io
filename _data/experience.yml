@@ -7,7 +7,7 @@ main:
     image_height: 52px
 
   - title: "SUSTech iSUS Lab"
-    details: "Advised by Prof. Qi Hao and Research Assistant Professor Meiying Zhang"
+    details: "(2024.08-Present) Advised by Prof. Qi Hao and Research Assistant Professor Meiying Zhang"
     url: https://github.com/sustech-isus
     image: ./assets/img/isus_logo.png
     image_width: 50px
