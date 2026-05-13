@@ -2216,10 +2216,21 @@ body.theme-calm-spectrum header ul a:hover {
 
 .publications ol.bibliography li {
     box-shadow: 0 10px 24px rgba(21, 28, 45, 0.04);
+    opacity: 1;
+    transform: none;
 }
 
 .publications ol.bibliography li .teaser {
     box-shadow: 0 12px 24px rgba(21, 28, 45, 0.12);
+}
+
+.publications .pub-row .abbr:empty {
+    display: none;
+}
+
+.publications .pub-row .col-sm-9 {
+    flex: 1;
+    min-width: 0;
 }
 
 .pub-row .abbr::after {

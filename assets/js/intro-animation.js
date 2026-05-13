@@ -71,7 +71,7 @@ if (cursorGlow) {
     }, { passive: true });
 }
 
-const animatedCards = document.querySelectorAll(".card, .experience-item, .bibliography li");
+const animatedCards = document.querySelectorAll(".card, .experience-item");
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
