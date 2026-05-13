@@ -9,6 +9,7 @@
 
 <div class="publications">
 {% if site.data.publications.main and site.data.publications.main.size > 0 %}
+{% if site.data.publications.main.size > 1 %}
 <div id="filters" class="filters">
   <button class="btn active" data-filter="*">All</button>
   <button class="btn" data-filter="Computer Vision">Computer Vision</button>
@@ -18,6 +19,7 @@
   <button class="btn" data-filter="World Model">World Model</button>
   <button class="btn" data-filter="NLP">NLP</button>
   </div>
+{% endif %}
 <ol class="bibliography">
 
 {% for link in site.data.publications.main %}
