@@ -15,7 +15,6 @@ main:
 
   - title: "HMI Lab, National Key Laboratory for Multimedia Information Processing"
     details: '(2026.01-Present) Research Intern advised by <a href="https://idm.pku.edu.cn/info/1017/1598.htm">Prof. Shanghang Zhang</a>'
-    url: https://cscsx.github.io/HMI-Web/index.html
     image: ./assets/img/hmi_logo.jpeg
     image_width: 80px
     image_height: 40px
