@@ -5,6 +5,7 @@ main:
     conference_short: "arXiv"
     pdf: "./assets/pdf/labshield-arxiv-2603.11987v1.pdf"
     url: "https://arxiv.org/abs/2603.11987"
+    image: "./assets/img/publications/labshield-teaser.png"
     tags:
       - Multimodal Learning
       - Embodied AI
