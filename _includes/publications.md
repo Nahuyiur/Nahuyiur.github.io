@@ -11,9 +11,12 @@
 {% if site.data.publications.main and site.data.publications.main.size > 0 %}
 <div id="filters" class="filters">
   <button class="btn active" data-filter="*">All</button>
-  <button class="btn" data-filter="World Model">World Model</button>
+  <button class="btn" data-filter="Computer Vision">Computer Vision</button>
+  <button class="btn" data-filter="Object Detection">Object Detection</button>
   <button class="btn" data-filter="Embodied AI">Embodied AI</button>
   <button class="btn" data-filter="Multimodal Learning">Multimodal Learning</button>
+  <button class="btn" data-filter="World Model">World Model</button>
+  <button class="btn" data-filter="NLP">NLP</button>
   </div>
 <ol class="bibliography">
 
@@ -32,7 +35,17 @@
   {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="title">
+        {% if link.pdf %}
+        <a href="{{ link.pdf }}">{{ link.title }}</a>
+        {% elsif link.url %}
+        <a href="{{ link.url }}">{{ link.title }}</a>
+        {% elsif link.page %}
+        <a href="{{ link.page }}">{{ link.title }}</a>
+        {% else %}
+        {{ link.title }}
+        {% endif %}
+      </div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>

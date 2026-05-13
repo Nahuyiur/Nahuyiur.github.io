@@ -1,1 +1,37 @@
-main: []
+main:
+  - title: "From Spatial to Spectral: An Efficient, Frequency-Guided Feature Representation Learner for Small Object Detection"
+    authors: "Yuhan Rui et al."
+    conference: "Under review, NeurIPS 2026"
+    conference_short: "NeurIPS 2026"
+    notes: "First author"
+    tags:
+      - Computer Vision
+      - Object Detection
+
+  - title: "Token-World: Direct World Model Simulator for Vision-Language-Action Models"
+    authors: "Yuhan Rui et al."
+    conference: "Under review, NeurIPS 2026"
+    conference_short: "NeurIPS 2026"
+    notes: "Co-first author"
+    tags:
+      - World Model
+      - Embodied AI
+
+  - title: "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories"
+    authors: "Yuhan Rui et al."
+    conference: "Under review, NeurIPS 2026"
+    conference_short: "NeurIPS 2026"
+    notes: "Co-first author"
+    tags:
+      - Multimodal Learning
+      - Embodied AI
+      - Safety
+
+  - title: "Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning"
+    authors: "Yuhan Rui et al."
+    conference: "Under review, NeurIPS 2026"
+    conference_short: "NeurIPS 2026"
+    notes: "Co-first author"
+    tags:
+      - NLP
+      - RAG

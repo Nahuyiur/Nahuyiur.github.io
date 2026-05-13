@@ -5,6 +5,7 @@ Gemfile.lock
 vendor
 .playwright-cli
 output
+assets/pdf/private/
 *.gem
 .DS_Store
 .jekyll-cache
