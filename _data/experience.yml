@@ -7,15 +7,15 @@ main:
     image_height: 52px
 
   - title: "SUSTech iSUS Lab"
-    details: "(2024.08-Present) Advised by Prof. Qi Hao and Research Assistant Professor Meiying Zhang"
+    details: '(2024.08-Present) Advised by <a href="https://sustech.edu.cn/en/faculties/haoqi.html">Prof. Qi Hao</a> and <a href="https://ritas.sustech.edu.cn/node/61">Research Assistant Professor Meiying Zhang</a>'
     url: https://github.com/sustech-isus
     image: ./assets/img/isus_logo.png
     image_width: 50px
     image_height: 50px
 
   - title: "HMI Lab, National Key Laboratory for Multimedia Information Processing"
-    details: "(2026.01-Present) Research Intern advised by Prof. Shanghang Zhang"
-    url: https://pku-hmi-lab.github.io/HMI-Web/about.html
+    details: '(2026.01-Present) Research Intern advised by <a href="https://pku-hmi-lab.github.io/HMI-Web/leader.html">Prof. Shanghang Zhang</a>'
+    url: https://pku-hmi-lab.github.io/HMI-Web/index.html
     image: ./assets/img/hmi_logo.jpeg
     image_width: 80px
     image_height: 40px
