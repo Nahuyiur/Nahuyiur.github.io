@@ -1489,42 +1489,53 @@ a:hover {
     margin: 0 0.08em;
 }
 
-.ambient-bear-stage {
+.misc-card {
     position: relative;
-    height: clamp(180px, 28vw, 300px);
-    margin: 20px auto 8px;
     overflow: hidden;
-    border-radius: 8px;
-    pointer-events: none;
+    isolation: isolate;
 }
 
-.ambient-bear-stage::before {
-    content: "";
+.misc-video-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.78));
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.misc-card > :not(.misc-video-bg) {
+    position: relative;
     z-index: 1;
 }
 
-.ambient-bear-video {
+.misc-video-bg::after {
+    content: "";
     position: absolute;
-    right: 0;
-    bottom: -18px;
-    width: min(270px, 46%);
-    opacity: 0.26;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.88) 0%, rgba(255, 255, 255, 0.56) 50%, rgba(255, 255, 255, 0.28) 100%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.58), rgba(255, 255, 255, 0.3));
+}
+
+.misc-bg-video {
+    position: absolute;
+    left: 54%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+    width: min(660px, 54vw);
+    height: auto;
+    opacity: 0.66;
     mix-blend-mode: multiply;
-    filter: saturate(0.96);
+    filter: saturate(1.02) contrast(1);
 }
 
 @media print,
 screen and (max-width: 960px) {
-    .ambient-bear-stage {
-        height: 170px;
-    }
-
-    .ambient-bear-video {
-        width: 190px;
-        opacity: 0.2;
+    .misc-bg-video {
+        left: 54%;
+        top: 55%;
+        width: 430px;
+        opacity: 0.5;
     }
 }
 
