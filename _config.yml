@@ -6,6 +6,8 @@ affiliation: Southern University of Science and Technology
 affiliation_link: https://www.sustech.edu.cn/
 email: ruiyuhan0110@gmail.com
 email_link: mailto:ruiyuhan0110@gmail.com
+phone: "+86 18915056955"
+phone_link: tel:+8618915056955
 
 domain: nahuyiur.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://nahuyiur.github.io # the base hostname and protocol for your site, e.g. http://example.com
@@ -22,6 +24,7 @@ canonical: https://nahuyiur.github.io/
 # If you don't need one of them, you may delete the corresponding line.
 social:
   - { platform: "GitHub", url: "https://github.com/Nahuyiur", icon: "fab fa-github", font_size: "1.2rem" }
+  - { platform: "RedNote", url: "https://www.xiaohongshu.com/user/profile/4601035757", icon_type: "rednote", font_size: "0.62rem" }
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.

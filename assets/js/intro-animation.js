@@ -1,7 +1,8 @@
 const texts = [
-    "Create. Explore. Expand. Conquer.",
-    "World Models. Multimodal Learning. Embodied AI.",
-    "Research with clarity, color, and motion."
+    "Perception draws the map. Action makes the climb real.",
+    "Video-language reasoning for dynamic, safety-critical worlds.",
+    "Building toward embodied intelligence, one careful step at a time.",
+    "Curiosity, discipline, and a willingness to build."
 ];
 
 const typewriterElement = document.getElementById("typewriter");

@@ -43,11 +43,21 @@
             <span></span>
             <span></span>
         </div>
-        <p class="intro-kicker">Personal Homepage</p>
-        <p class="intro-title">Welcome to {{ site.title }}'s Webpage</p>
+        <div class="intro-video-bg" aria-hidden="true">
+            <video class="intro-bear-video" autoplay muted loop playsinline preload="metadata">
+                <source src="./assets/video/brown-bear-franka-pingpong.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="intro-shell">
+            <div class="intro-copy">
+                <p class="intro-kicker">Personal Homepage</p>
+                <p class="intro-title">{{ site.title }}</p>
+                <p class="intro-subtitle">Research, music, and a steady climb toward embodied intelligence.</p>
 
-        <div class="intro-typewriter">
-            <span id="typewriter"></span><span class="cursor">|</span>
+                <div class="intro-typewriter">
+                    <span id="typewriter"></span><span class="cursor">|</span>
+                </div>
+            </div>
         </div>
 
         <p class="intro-enter">Enter</p>
@@ -77,19 +87,40 @@
         </a>
         <br>
         {% endif %}
-        {% if site.email %}
-        {% if site.email_link %}
-        <email><a href="{{ site.email_link }}">{{ site.email }}</a></email>
-        {% else %}
-        <email>{{ site.email }}</email>
-        {% endif %}
+        {% if site.email or site.phone %}
+        <div class="profile-contact">
+            {% if site.email %}
+            <div class="profile-contact-row">
+                <span class="profile-contact-label">Email:</span>
+                {% if site.email_link %}
+                <a href="{{ site.email_link }}">{{ site.email }}</a>
+                {% else %}
+                <span>{{ site.email }}</span>
+                {% endif %}
+            </div>
+            {% endif %}
+            {% if site.phone %}
+            <div class="profile-contact-row">
+                <span class="profile-contact-label">Tel:</span>
+                {% if site.phone_link %}
+                <a href="{{ site.phone_link }}">{{ site.phone }}</a>
+                {% else %}
+                <span>{{ site.phone }}</span>
+                {% endif %}
+            </div>
+            {% endif %}
+        </div>
         {% endif %}
 
         <br><br>
         <div class="social-icons">
             {% for social in site.social %}
             <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer" title="{{ social.platform }}">
+                {% if social.icon_type == "rednote" %}
+                <span class="rednote-icon" style="font-size: {{ social.font_size | default: '0.62rem' }};">RED</span>
+                {% else %}
                 <i class="{{ social.icon }}" style="font-size: {{ social.font_size | default: '1.2rem' }};"></i>
+                {% endif %}
             </a>
             {% endfor %}
         </div>
