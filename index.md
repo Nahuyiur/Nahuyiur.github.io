@@ -20,9 +20,9 @@ My interests grow from a simple question: how can machines perceive dynamic scen
 ## Research Interests
 
 - **Autonomous Driving:** video-text retrieval, dangerous scene detection, safety-critical scene understanding
-- **Computer Vision:** object detection, visual representation learning, scene perception
-- **Multimodal Learning & NLP:** vision-language understanding, retrieval, language-grounded reasoning
-- **World Models & Embodied AI:** environment dynamics, embodied perception, decision-making for agents
+- **Computer Vision:** object detection, visual representation learning
+- **Multimodal Learning & NLP:** vision-language understanding, context engineering
+- **World Models & Embodied AI:** latent world models, laboratory embodied benchmarks, compositional generalization
 
 </div>
 
@@ -57,8 +57,4 @@ My interests grow from a simple question: how can machines perceive dynamic scen
 - 🏃 I am trying to build a serious <span class="misc-accent">fitness habit</span>. I used to run regularly, before research deadlines turned me into a temporary couch potato.
 - 🧸 I have a soft spot for <span class="misc-accent">Brown bears</span>: three identical Brown bear pillows live with me in Changzhou, Shenzhen, and Beijing.
 
-</div>
-
-<div style="width: 100px; height: 100px; margin: 30px auto; display: flex; justify-content: center; align-items: center;">
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=WBS-C103szyqK9_Q1B6O3HihyzClmC4RQve17y7ef-U"></script>
 </div>
