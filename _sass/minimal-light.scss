@@ -641,12 +641,62 @@ footer {
 }
 
 /* News Ticker Styles */
+.news-card {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+.news-card > :not(.news-video-bg) {
+    position: relative;
+    z-index: 2;
+}
+
+.news-video-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.news-video-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.26) 44%, rgba(255, 255, 255, 0.2) 100%),
+        radial-gradient(circle at 52% 58%, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.18) 56%, rgba(255, 255, 255, 0.64) 88%);
+}
+
+.news-bg-video {
+    position: absolute;
+    left: 52%;
+    top: 58%;
+    width: min(450px, 62%);
+    height: auto;
+    transform: translate(-50%, -50%);
+    opacity: 0.76;
+    mix-blend-mode: multiply;
+    filter: saturate(1.02) contrast(1.04) brightness(1.04);
+    -webkit-mask-image:
+        radial-gradient(ellipse 45% 40% at 52% 45%, #000 0 58%, rgba(0, 0, 0, 0.75) 70%, transparent 88%),
+        radial-gradient(ellipse 30% 22% at 38% 76%, #000 0 54%, rgba(0, 0, 0, 0.7) 68%, transparent 88%);
+    mask-image:
+        radial-gradient(ellipse 45% 40% at 52% 45%, #000 0 58%, rgba(0, 0, 0, 0.75) 70%, transparent 88%),
+        radial-gradient(ellipse 30% 22% at 38% 76%, #000 0 54%, rgba(0, 0, 0, 0.7) 68%, transparent 88%);
+    -webkit-mask-composite: source-over;
+    mask-composite: add;
+}
+
 .news-ticker-container {
+    position: relative;
+    z-index: 2;
     height: 150px;
     overflow-y: auto;
     border-radius: 12px;
     padding: 16px;
-    background-color: #f5f5f7;
+    background-color: rgba(255, 255, 255, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -2410,6 +2460,20 @@ body.theme-calm-spectrum header ul a:hover {
 .publications ol.bibliography li {
     background: #fff;
     border-color: var(--calm-line);
+}
+
+.news-ticker-container {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.news-ticker {
+    position: relative;
+    z-index: 2;
+}
+
+.news-ticker li {
+    background: transparent;
+    border-color: transparent;
 }
 
 .news-ticker li strong {

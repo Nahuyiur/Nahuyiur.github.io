@@ -30,7 +30,13 @@ My interests grow from a simple question: how can machines perceive dynamic scen
 {% include experience.md %}
 </div>
 
-<div class="card" markdown="1">
+<div class="card news-card" markdown="1">
+
+<div class="news-video-bg" aria-hidden="true">
+    <video class="news-bg-video" autoplay muted loop playsinline preload="metadata">
+        <source src="./assets/video/brown-bear-reading-pingpong.mp4" type="video/mp4">
+    </video>
+</div>
 
 ## News🔥
 

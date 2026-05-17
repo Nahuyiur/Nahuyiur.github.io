@@ -24,7 +24,8 @@ canonical: https://nahuyiur.github.io/
 # If you don't need one of them, you may delete the corresponding line.
 social:
   - { platform: "GitHub", url: "https://github.com/Nahuyiur", icon: "fab fa-github", font_size: "1.2rem" }
-  - { platform: "RedNote", url: "https://www.xiaohongshu.com/user/profile/4601035757", icon_type: "rednote", font_size: "0.62rem" }
+  - { platform: "RedNote", url: "https://www.xiaohongshu.com/search_result?keyword=4601035757", icon_type: "rednote", font_size: "0.62rem" }
+  - { platform: "Google Scholar", url: "https://scholar.google.com/citations?user=xE77FjEAAAAJ&hl=en&oi=ao", icon: "ai ai-google-scholar", font_size: "1.24rem" }
 
 # Images (e.g., your profile picture and your website's favicon)
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively.
