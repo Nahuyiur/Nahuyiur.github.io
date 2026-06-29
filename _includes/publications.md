@@ -27,16 +27,16 @@
 <li data-tags="{{ link.tags | join: ', ' }}">
 <div class="pub-row">
   {% if link.image %}
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+  <div class="pub-media abbr">
   <a href="{% if link.page %}{{ link.page }}{% else %}{{ link.pdf }}{% endif %}" target="_blank" rel="noopener noreferrer">
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=auto;">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }} teaser">
   </a>
   {% if link.conference_short %}
   <abbr class="badge">{{ link.conference_short }}</abbr>
   {% endif %}
   </div>
   {% endif %}
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+  <div class="pub-content">
       <div class="title">
         {% if link.pdf %}
         <a href="{{ link.pdf }}">{{ link.title }}</a>
@@ -48,7 +48,19 @@
         {{ link.title }}
         {% endif %}
       </div>
-      <div class="author">{{ link.authors }}</div>
+      <div class="author">
+        {% assign first_author = link.authors | first %}
+        {% if first_author.name %}
+          {% for author in link.authors %}
+            {% if author.highlight %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% if author.equal %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        {% else %}
+          {{ link.authors }}
+        {% endif %}
+        {% if link.equal_note %}
+        <span class="equal-note">{{ link.equal_note }}</span>
+        {% endif %}
+      </div>
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
