@@ -1,4 +1,16 @@
 main:
+  - title: "From Spatial to Spectral: An Efficient, Frequency-Guided Feature Representation Learner for Small Object Detection"
+    authors: "Yuhan Rui, Shihan Qiao, Yibin Lou, Mingxi Yu, Yutong Wan, Yanqiao Chen, Dongsheng Hou, Zhen Cao, Athena Zhuoming Zhong, Qi Hao"
+    conference: "arXiv preprint, 2026"
+    conference_short: "arXiv"
+    pdf: "https://arxiv.org/pdf/2606.23825"
+    url: "https://arxiv.org/abs/2606.23825"
+    image: "./assets/img/publications/dernet-teaser.png"
+    tags:
+      - Computer Vision
+      - Object Detection
+      - Efficient AI
+
   - title: "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories"
     authors: "Qianpu Sun, Xiaowei Chi, Yuhan Rui, Ying Li, Kuangzhi Ge, Jiajun Li, Sirui Han, Shanghang Zhang"
     conference: "arXiv preprint, 2026"
