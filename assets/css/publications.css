@@ -40,7 +40,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
 
 .publications ol.bibliography li {
-  min-height: 255px;
+  min-height: 333px;
   margin-bottom: 1.1rem;
 }
 
@@ -49,7 +49,7 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
   grid-template-columns: minmax(240px, 310px) minmax(0, 1fr);
   gap: 26px;
   align-items: center;
-  min-height: 232px;
+  min-height: 295px;
 }
 
 .publications ol.bibliography li .pub-media {
