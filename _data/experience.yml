@@ -21,3 +21,6 @@ main:
 
   - title: "Muka Robotics"
     details: '(2026.04-Present) Early-stage intern contributing as one of the company''s initial team members, mentored by <a href="https://litwellchi.github.io/">Dr. Xiaowei Chi</a>'
+    image: ./assets/img/muka_logo.png
+    image_width: 84px
+    image_height: 40px
