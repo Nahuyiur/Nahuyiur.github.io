@@ -1,4 +1,26 @@
 main:
+  - title: "Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning"
+    authors:
+      - name: "Yanqiao Chen"
+        equal: true
+      - name: "Dongsheng Hou"
+        equal: true
+      - name: "Yuhan Rui"
+        highlight: true
+        equal: true
+      - name: "Zhen Cao"
+      - name: "Yepang Liu"
+    equal_note: "* Equal contribution"
+    conference: "arXiv preprint, 2026"
+    conference_short: "arXiv"
+    pdf: "https://arxiv.org/pdf/2607.16209"
+    url: "https://arxiv.org/abs/2607.16209"
+    image: "./assets/img/publications/scp-teaser.png"
+    tags:
+      - NLP
+      - Retrieval-Augmented Generation
+      - Efficient AI
+
   - title: "From Spatial to Spectral: An Efficient, Frequency-Guided Feature Representation Learner for Small Object Detection"
     authors:
       - name: "Yuhan Rui"
