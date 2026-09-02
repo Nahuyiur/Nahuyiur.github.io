@@ -14,7 +14,7 @@ main:
     image_height: 50px
 
   - title: "HMI Lab, National Key Laboratory for Multimedia Information Processing"
-    details: '(2026.01-Present) Research Intern advised by <a href="https://idm.pku.edu.cn/info/1017/1598.htm">Prof. Shanghang Zhang</a>'
+    details: '(2026.01-2026.07) Research Intern advised by <a href="https://idm.pku.edu.cn/info/1017/1598.htm">Prof. Shanghang Zhang</a>'
     image: ./assets/img/hmi_logo.jpeg
     image_width: 80px
     image_height: 40px

@@ -1,3 +1,9 @@
+- date: Aug. 2026
+  content: '📄 Our paper <a href="https://arxiv.org/abs/2608.30283" target="_blank" rel="noopener">BCPPO: Bachelier-Inspired Constrained Proximal Policy Optimization for Tail-Risk-Aware Safe Reinforcement Learning</a> is now available on arXiv.'
+
+- date: Jul. 2026
+  content: '🏅 Muka Robotics'' <span class="text-accent">LJM World Model</span>, submitted to WorldArena under the anonymous code name <span class="text-accent">SisyphusWorld</span>, ranked 2nd globally; I contributed as a core contributor, listed third among co-first contributors.'
+
 - date: Jul. 2026
   content: '📄 Our paper <a href="https://arxiv.org/abs/2607.16209" target="_blank" rel="noopener">Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning</a> is now available on arXiv.'
 

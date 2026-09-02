@@ -17,6 +17,7 @@
   <button class="btn" data-filter="Embodied AI">Embodied AI</button>
   <button class="btn" data-filter="Multimodal Learning">Multimodal Learning</button>
   <button class="btn" data-filter="World Model">World Model</button>
+  <button class="btn" data-filter="Reinforcement Learning">Reinforcement Learning</button>
   <button class="btn" data-filter="NLP">NLP</button>
   </div>
 {% endif %}
