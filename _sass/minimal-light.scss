@@ -645,6 +645,7 @@ footer {
     position: relative;
     overflow: hidden;
     isolation: isolate;
+    --news-accent: #f4a51c;
 }
 
 .news-card > :not(.news-video-bg) {
@@ -665,8 +666,8 @@ footer {
     position: absolute;
     inset: 0;
     background:
-        linear-gradient(90deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.26) 44%, rgba(255, 255, 255, 0.2) 100%),
-        radial-gradient(circle at 52% 58%, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.18) 56%, rgba(255, 255, 255, 0.64) 88%);
+        linear-gradient(90deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.44) 44%, rgba(255, 255, 255, 0.38) 100%),
+        radial-gradient(circle at 52% 58%, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.32) 56%, rgba(255, 255, 255, 0.72) 88%);
 }
 
 .news-bg-video {
@@ -676,7 +677,7 @@ footer {
     width: min(450px, 62%);
     height: auto;
     transform: translate(-50%, -50%);
-    opacity: 0.76;
+    opacity: 0.52;
     mix-blend-mode: multiply;
     filter: saturate(1.02) contrast(1.04) brightness(1.04);
     -webkit-mask-image:
@@ -2477,14 +2478,15 @@ body.theme-calm-spectrum header ul a:hover {
 }
 
 .news-ticker li strong {
-    color: var(--accent-amber);
+    color: var(--news-accent);
 }
 
-section > .card:nth-of-type(4) a {
-    color: var(--accent-amber);
+.news-card a,
+.news-card .text-accent {
+    color: var(--news-accent);
 }
 
-section > .card:nth-of-type(4) a:hover {
+.news-card a:hover {
     color: #d97706;
 }
 
