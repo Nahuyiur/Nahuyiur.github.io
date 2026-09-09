@@ -89,3 +89,16 @@ main:
       - Multimodal Learning
       - Embodied AI
       - Safety
+
+  - title: "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
+    authors: 'Yuran Wang, Siqiao Huang, Mingleyang Li, ..., <strong>Yuhan Rui</strong>, ..., Lin Shao, Hang Zhao'
+    conference: "arXiv preprint, 2026"
+    conference_short: "arXiv"
+    pdf: "https://arxiv.org/pdf/2609.07398"
+    url: "https://arxiv.org/abs/2609.07398"
+    code: "https://github.com/OpenWAM-Official/OpenWAM"
+    page: "https://openwam-official.github.io/"
+    image: "./assets/img/publications/openwam-teaser.png"
+    tags:
+      - Embodied AI
+      - World Model
