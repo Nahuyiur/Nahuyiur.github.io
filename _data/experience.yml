@@ -1,6 +1,13 @@
 main:
+  - title: "Shanghai Jiao Tong University"
+    details: 'Incoming Ph.D. Student, <a href="https://soai.sjtu.edu.cn/" target="_blank" rel="noopener">School of Artificial Intelligence</a>'
+    url: https://en.sjtu.edu.cn/
+    image: ./assets/img/sjtu_logo.svg
+    image_width: 52px
+    image_height: 52px
+
   - title: "Southern University of Science and Technology"
-    details: "(2023.09-Present) B.S. in Computer Science and Technology"
+    details: "(2023.09-Present) B.Eng. in Computer Science and Technology"
     url: https://www.sustech.edu.cn/
     image: ./assets/img/sustech_logo.png
     image_width: 52px
