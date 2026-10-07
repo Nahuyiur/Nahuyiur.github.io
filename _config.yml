@@ -1,6 +1,6 @@
 # Basic Information
 title: Yuhan Rui
-position: "Undergraduate Student<br>Incoming Ph.D. Student at SJTU"
+position: "Undergraduate Student<br>Incoming Ph.D. Student<br>SJTU &amp; ZGCA"
 tagline: A climber scaling the AGI mountain.
 affiliation: Southern University of Science and Technology
 affiliation_link: https://www.sustech.edu.cn/
@@ -17,7 +17,7 @@ plugins:
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: Yuhan Rui, Rui Yuhan, Ewan Ray, 芮煜涵, SUSTech, Southern University of Science and Technology, computer science, autonomous driving, video-text retrieval, dangerous scene detection, object detection, computer vision, multimodal learning, NLP, safe reinforcement learning, world models, embodied AI
-description: The personal website of Yuhan Rui, an undergraduate student in Computer Science and Technology at Southern University of Science and Technology and an incoming Ph.D. student at the School of Artificial Intelligence, Shanghai Jiao Tong University, exploring autonomous driving, computer vision, multimodal learning, safe reinforcement learning, world models, and embodied AI.
+description: The personal website of Yuhan Rui, an undergraduate student in Computer Science and Technology at Southern University of Science and Technology and an incoming Ph.D. student in the joint training program between the School of Artificial Intelligence at Shanghai Jiao Tong University and Zhongguancun Academy, exploring autonomous driving, computer vision, multimodal learning, safe reinforcement learning, world models, and embodied AI.
 canonical: https://nahuyiur.github.io/
 
 # Links

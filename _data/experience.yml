@@ -1,10 +1,17 @@
 main:
   - title: "Shanghai Jiao Tong University"
-    details: 'Incoming Ph.D. Student, <a href="https://soai.sjtu.edu.cn/" target="_blank" rel="noopener">School of Artificial Intelligence</a>'
+    details: 'Incoming Ph.D. Student, <a href="https://soai.sjtu.edu.cn/" target="_blank" rel="noopener">School of Artificial Intelligence</a>; joint training with <a href="https://www.bza.edu.cn/en/" target="_blank" rel="noopener">Zhongguancun Academy (ZGCA)</a>'
     url: https://en.sjtu.edu.cn/
     image: ./assets/img/sjtu_logo.svg
     image_width: 52px
     image_height: 52px
+
+  - title: "Zhongguancun Academy (ZGCA)"
+    details: 'Incoming Ph.D. Student in the joint training program with <a href="https://en.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a>'
+    url: https://www.bza.edu.cn/en/
+    image: ./assets/img/zgca_logo.png
+    image_width: 84px
+    image_height: 40px
 
   - title: "Southern University of Science and Technology"
     details: "(2023.09-Present) B.Eng. in Computer Science and Technology"

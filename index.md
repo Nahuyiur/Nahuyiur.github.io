@@ -6,7 +6,7 @@ layout: homepage
 
 ## About Me
 
-I am an undergraduate student majoring in Computer Science and Technology at [Southern University of Science and Technology](https://www.sustech.edu.cn/). I am also an incoming Ph.D. student at the <a class="text-accent" href="https://soai.sjtu.edu.cn/">School of Artificial Intelligence</a>, <a class="text-accent" href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>.
+I am an undergraduate student majoring in Computer Science and Technology at [Southern University of Science and Technology](https://www.sustech.edu.cn/). I am also an incoming Ph.D. student in the joint training program between the <a class="text-accent" href="https://soai.sjtu.edu.cn/">School of Artificial Intelligence</a> at <a class="text-accent" href="https://en.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a> and <a class="text-accent" href="https://www.bza.edu.cn/en/">Zhongguancun Academy (ZGCA)</a>.
 
 At SUSTech, I am advised by <a class="text-accent" href="https://sustech.edu.cn/en/faculties/haoqi.html">Prof. Qi Hao</a> and <a class="text-accent" href="https://ritas.sustech.edu.cn/node/61">Research Assistant Professor Meiying Zhang</a>. I was also a research intern at Prof. <a class="text-accent" href="https://idm.pku.edu.cn/info/1017/1598.htm">Shanghang Zhang</a>'s <span class="text-accent">HMI Lab</span>, Peking University, and I am an early intern at <span class="text-accent">Muka Robotics</span>, where <a class="text-accent" href="https://litwellchi.github.io/">Dr. Xiaowei Chi</a> has been a deeply important mentor and a generous guide who helped lead me into embodied AI.
 
