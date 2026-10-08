@@ -49,7 +49,7 @@ main:
     pdf: "https://arxiv.org/pdf/2610.00575"
     url: "https://arxiv.org/abs/2610.00575"
     page: "https://chuyaofu.github.io/Token-World/"
-    image: "./assets/img/publications/token-world-teaser.png"
+    image: "./assets/img/publications/token-world-figure1.png"
     tags:
       - Embodied AI
       - World Model
