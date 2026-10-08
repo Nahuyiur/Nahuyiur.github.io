@@ -19,7 +19,6 @@ main:
     image: "./assets/img/publications/permvla-teaser.png"
     tags:
       - Embodied AI
-      - Multimodal Learning
 
   - title: "Token-World: World Modeling in Vision-Language Model Token Space for Robot Manipulation"
     authors:
@@ -40,7 +39,6 @@ main:
     image: "./assets/img/publications/token-world-figure1.png"
     tags:
       - Embodied AI
-      - World Model
 
   - title: "BCPPO: Bachelier-Inspired Constrained Proximal Policy Optimization for Tail-Risk-Aware Safe Reinforcement Learning"
     authors:
@@ -59,8 +57,6 @@ main:
     image: "./assets/img/publications/bcppo-teaser.png"
     tags:
       - Reinforcement Learning
-      - Safe RL
-      - AI Safety
 
   - title: "Shapley Context Pruning: A Cooperative Game Perspective for Context Reranking and Pruning"
     authors:
@@ -81,8 +77,6 @@ main:
     image: "./assets/img/publications/scp-teaser.png"
     tags:
       - NLP
-      - Retrieval-Augmented Generation
-      - Efficient AI
 
   - title: "From Spatial to Spectral: An Efficient, Frequency-Guided Feature Representation Learner for Small Object Detection"
     authors:
@@ -109,8 +103,6 @@ main:
     image: "./assets/img/publications/dernet-teaser.png"
     tags:
       - Computer Vision
-      - Object Detection
-      - Efficient AI
 
   - title: "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories"
     authors:
@@ -129,9 +121,7 @@ main:
     url: "https://arxiv.org/abs/2603.11987"
     image: "./assets/img/publications/labshield-teaser.png"
     tags:
-      - Multimodal Learning
       - Embodied AI
-      - Safety
 
   - title: "OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining"
     authors:
@@ -161,4 +151,3 @@ main:
     image: "./assets/img/publications/openwam-teaser.png"
     tags:
       - Embodied AI
-      - World Model

@@ -13,12 +13,9 @@
 <div id="filters" class="filters">
   <button class="btn active" data-filter="*">All</button>
   <button class="btn" data-filter="Computer Vision">Computer Vision</button>
-  <button class="btn" data-filter="Object Detection">Object Detection</button>
   <button class="btn" data-filter="Embodied AI">Embodied AI</button>
-  <button class="btn" data-filter="Multimodal Learning">Multimodal Learning</button>
-  <button class="btn" data-filter="World Model">World Model</button>
-  <button class="btn" data-filter="Reinforcement Learning">Reinforcement Learning</button>
   <button class="btn" data-filter="NLP">NLP</button>
+  <button class="btn" data-filter="Reinforcement Learning">Reinforcement Learning</button>
   </div>
 {% endif %}
 <ol class="bibliography">
