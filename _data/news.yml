@@ -1,5 +1,5 @@
-- date: "2026"
-  content: '🏅 Received the National Scholarship and BYD Scholarship.'
+- date: Oct. 2026
+  content: '🏅 Received the <span class="text-accent">National Scholarship</span> and <span class="text-accent">BYD Scholarship</span>.'
 
 - date: Oct. 2026
   content: '📄 Our paper <a href="https://arxiv.org/abs/2610.04659" target="_blank" rel="noopener">PermVLA: Factorization Order as a Regularizer for VLA Learning</a> is now available on arXiv.'
